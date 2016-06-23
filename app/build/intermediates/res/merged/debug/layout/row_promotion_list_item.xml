@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutRowOffer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:background="@drawable/bg_custom_spinner"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="@dimen/width_image_map"
+            android:layout_height="@dimen/width_image_map"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@android:color/transparent" >
+
+            <ProgressBar
+                android:id="@+id/progess"
+                style="@android:style/Widget.ProgressBar.Small.Inverse"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true" />
+
+            <ImageView
+                android:id="@+id/imgImage"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerInParent="true"
+                android:layout_margin="2dp"
+                android:contentDescription="@string/about"
+                android:scaleType="centerCrop" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginRight="@dimen/margin_small"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/lblTitle"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:lines="1"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="Title"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/text_normal" />
+
+            <TextView
+                android:id="@+id/lblDate"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:ellipsize="marquee"
+                android:fadingEdge="horizontal"
+                android:lines="1"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:scrollHorizontally="true"
+                android:singleLine="true"
+                android:text="From A - B"
+                android:textColor="@color/red"
+                android:textSize="@dimen/text_xsmall" />
+
+            <TextView
+                android:id="@+id/lblContent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_small"
+                android:layout_marginTop="5dp"
+                android:lines="2"
+                android:maxLines="2"
+                android:text="Giam gia cac loai nuoc ngot: Coca, Sting, C2...."
+                android:textColor="@color/black"
+                android:textSize="@dimen/text_xsmall" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/layout/row_promotion_list_item.xml -->

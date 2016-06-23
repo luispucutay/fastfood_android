@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header"
+        android:background="@drawable/bg_header"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="@dimen/icon_width_height"
+            android:layout_height="@dimen/icon_width_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="@dimen/margin_small"
+            android:background="@drawable/ic_drawer" />
+
+        <Button
+            android:id="@+id/btnPromotionTemp"
+            android:layout_width="@dimen/icon_width_height"
+            android:layout_height="@dimen/icon_width_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_promotion"
+            android:padding="@dimen/margin_xnormal"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/lblHeaderTtle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:textSize="@dimen/text_xxnormal"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btnFilter"
+            android:layout_width="@dimen/icon_width_height"
+            android:layout_height="@dimen/icon_width_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_action_sort_1"
+            android:padding="@dimen/margin_xnormal"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btnCustomer"
+            android:layout_width="@dimen/icon_width_height"
+            android:layout_height="@dimen/icon_width_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_customer"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnRight"
+            android:layout_width="@dimen/icon_width_height"
+            android:layout_height="@dimen/icon_width_height"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_drawer"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <com.hcpt.fastfood.widget.pulltorefresh.PullToRefreshListView
+            xmlns:ptr="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/lsvItems"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="@dimen/margin_normal"
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            ptr:ptrMode="both" />
+    </FrameLayout>
+
+    <Button
+        android:id="@+id/btnUpdateStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="@dimen/margin_small"
+        android:background="@drawable/bg_text_button"
+        android:padding="@dimen/margin_small"
+        android:text="@string/lbl_update_status"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_normal" 
+        android:visibility="gone"/>
+
+</LinearLayout>

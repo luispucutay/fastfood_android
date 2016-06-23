@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/height_header"
+    android:id="@+id/layout"
+    android:background="@drawable/bg_header"
+    android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/btnLeft"
+        android:layout_width="@dimen/icon_width_height"
+        android:layout_height="@dimen/icon_width_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="@dimen/dimen_xsmall"
+        android:background="@drawable/btn_back" />
+
+    <TextView
+        android:id="@+id/lblTable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margin_normal"
+        android:gravity="left|center_vertical"
+        android:text="Table"
+        android:textColor="#ffffff"
+        android:textSize="@dimen/text_xnormal"
+        android:textStyle="bold"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnPromotionTemp"
+        android:layout_width="@dimen/icon_width_height"
+        android:layout_height="@dimen/icon_width_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/margin_small"
+        android:background="@drawable/ic_promotion"
+        android:padding="@dimen/margin_xnormal"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/lblHeaderTtle"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:textColor="#ffffff"
+        android:singleLine="true"
+        android:ellipsize="marquee"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:textSize="@dimen/text_xxnormal"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/btnPromotion"
+        android:layout_width="@dimen/icon_width_height"
+        android:layout_height="@dimen/icon_width_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/margin_small"
+        android:background="@drawable/ic_promotion"
+        android:padding="@dimen/margin_xnormal"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnRight"
+        android:layout_width="@dimen/icon_width_height"
+        android:layout_height="@dimen/icon_width_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/margin_small"
+        android:background="@drawable/ic_drawer"
+        android:visibility="invisible" />
+
+    <Button
+        android:id="@+id/btnCustomer"
+        android:layout_width="@dimen/icon_width_height"
+        android:layout_height="@dimen/icon_width_height"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/margin_small"
+        android:background="@drawable/ic_customer"
+        android:visibility="gone" />
+
+</LinearLayout>

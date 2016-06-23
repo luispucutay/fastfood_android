@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header"
+        android:background="@drawable/bg_header"
+        android:gravity="center"
+        android:text="@string/lbl_select_language"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_normal" />
+
+    <ListView
+        android:id="@+id/lsvLanguage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@null"
+        android:dividerHeight="0dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/lblClose"
+            android:layout_width="@dimen/btn_app_width"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:background="@drawable/bg_btn_green"
+            android:gravity="center"
+            android:padding="@dimen/margin_small"
+            android:text="@string/lbl_choose"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_normal" />
+
+        <TextView
+            android:id="@+id/lbl_cannel"
+            android:layout_width="@dimen/btn_app_width"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_toRightOf="@+id/lblClose"
+            android:layout_marginLeft="@dimen/dimen_normal"
+            android:background="@drawable/bg_btn_green"
+            android:gravity="center"
+            android:padding="@dimen/margin_small"
+            android:text="@string/lbl_cannel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_normal" />
+
+    </RelativeLayout>
+
+</LinearLayout>

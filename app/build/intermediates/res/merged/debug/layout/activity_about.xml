@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_header" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/margin_small"
+        android:background="@drawable/bg_item_row"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_normal" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/margin_normal"
+            android:text="@string/about_title"
+            android:textColor="@color/text_app"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="bold" />
+
+        <com.google.android.gms.maps.MapView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/mapView"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_weight="4" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="6"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/layoutAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/address"
+                    android:visibility="gone"
+                    android:textColor="@color/text_app"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:id="@+id/lblAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_normal"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    android:text="Ha noi, Viet Nam"
+                    android:textColor="@color/text_app"
+                    android:textSize="@dimen/text_small" />
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/btnGohere"
+                android:layout_width="@dimen/btn_app_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:layout_marginTop="@dimen/margin_small"
+                android:background="@drawable/bg_btn_app"
+                android:gravity="center"
+                android:padding="@dimen/margin_small"
+                android:text="@string/go_here"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_small" />
+
+            <LinearLayout
+                android:id="@+id/layoutPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_small"
+                    android:text="@string/about_content1"
+                    android:textColor="@color/black" />
+
+                <TextView
+                    android:layout_marginTop="@dimen/margin_normal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/text_small"
+                    android:text="@string/about_content2"
+                    android:textColor="@color/black" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutOpenhour"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/open_hour"
+                    android:visibility="gone"
+                    android:textColor="@color/text_app"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:id="@+id/lblOpeningHours"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/margin_normal"
+                    android:singleLine="true"
+                    android:visibility="gone"
+                    android:text="08 AM - 10 PM"
+                    android:textColor="@color/text_app"
+                    android:textSize="@dimen/text_small" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutWebsite"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/margin_small"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/website"
+                    android:textColor="@color/text_app"
+                    android:textSize="@dimen/text_small" />
+
+
+                <TextView
+                    android:id="@+id/lblWebsite"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColorLink="@color/blue"
+                    android:text="@string/about_link"
+                    android:textSize="@dimen/text_small"
+                    android:layout_marginLeft="@dimen/margin_normal"
+                    android:textColor="@color/blue" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/btnFeedback"
+                android:layout_width="@dimen/btn_app_width"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_marginRight="@dimen/margin_normal"
+                android:layout_marginTop="@dimen/margin_normal"
+                android:background="@drawable/bg_btn_app"
+                android:gravity="center"
+                android:padding="@dimen/margin_small"
+                android:text="@string/feedback"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_small" />
+        </LinearLayout>
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout><!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/layout/activity_about.xml -->

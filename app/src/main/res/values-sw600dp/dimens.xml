@@ -1,0 +1,30 @@
+<resources>
+
+    <dimen name="app_button_width">150dp</dimen>
+    <dimen name="app_standalone_button_width">310dp</dimen>
+    <dimen name="app_button_height">60dp</dimen>
+    <dimen name="app_text_size">20sp</dimen>
+    <dimen name="app_header_text_size">25sp</dimen>
+    <dimen name="app_label_noise_text_width">80dp</dimen>
+    <dimen name="app_label_noise_number_width">60dp</dimen>
+    <dimen name="app_label_text_width">140dp</dimen>
+    <dimen name="app_spinner_width">190dp</dimen>
+    <dimen name="app_margin_audio_and_visual">15dp</dimen>
+    
+     <!-- layout choose song -->
+    <dimen name="layout_bottom_height">80dp</dimen>
+    <dimen name="app_button_choose_song_width">260dp</dimen>
+    <dimen name="app_button_choose_song_height">60dp</dimen>
+    <dimen name="app_button_controls_song_height">60dp</dimen>
+    <dimen name="app_button_controls_song_width">60dp</dimen>
+    
+    <!-- layout dialog -->
+    
+    <dimen name="app_dialog_width">400dp</dimen>
+    <dimen name="app_dialog_height">100dp</dimen>
+    
+    <!-- layout dialog -->
+    <dimen name="button_help_screen_width">30dp</dimen>
+    <dimen name="button_help_screen_height">40dp</dimen>
+
+</resources>

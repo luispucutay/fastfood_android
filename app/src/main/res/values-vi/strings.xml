@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Thức ăn nhanh</string>
+    <string name="tel">Gọi:</string>
+    <string name="menu">Thực Đơn</string>
+    <string name="search">Tìm Kiếm</string>
+    <string name="order">Đặt Hàng</string>
+    <string name="order_now">Đặt hàng ngay</string>
+    <string name="about">Thông Tin</string>
+    <string name="streams">Video</string>
+    <string name="account">Tài Khoản</string>
+
+    <!-- Cart -->
+    <string name="error_no_topping">Không có Topping !</string>
+    <string name="txt_add_ins_tructions">Thêm ghi chú</string>
+    <string name="txt_add_ins_tructions_hint">Điền ghi chú...</string>
+    <string name="txt_add_toppings">Thêm lựa chọn</string>
+    <string name="options">Lựa chọn</string>
+    <string name="remove">Xóa</string>
+    <string name="Note">Thêm ghi chú</string>
+    <string name="save">Lưu</string>
+
+    <!-- submit order -->
+    <string name="lblOrderSumary">Tổng đơn hàng</string>
+    <string name="no_items">Số mặt hàng :</string>
+    <string name="total_amount">Tổng cộng :</string>
+    <string name="customer_information">Thông tin khách hàng</string>
+    <string name="name">Tên</string>
+    <string name="payment_method_label">Phương thức thanh toán</string>
+    <string name="payment_method">Phương thức thanh toán</string>
+    <string name="policy">Chúng tôi sẽ gọi cho bạn để xác nhận khi đơn hàng được gửi đi.</string>
+    <string name="submit">Đặt hàng</string>
+    <string name="submit_order">Gửi đơn hàng</string>
+    <string name="error_input_receipted_info">Vui lòng nhập các thông tin và phương thức thanh toán!</string>
+    <string name="confirm_order">Bạn có muốn đặt hàng ngay?</string>
+    <string name="btn_OK">Có</string>
+    <string name="btn_Cancel">Không</string>
+    <string name="btn_Send">Gửi</string>
+    <string name="bank_detail">Chi tiết ngân hàng</string>
+
+    <!-- submit order -->
+    <string name="lbl_login">Đăng Nhập</string>
+    <string name="lbl_user_name">Tên đăng nhập</string>
+    <string name="lbl_register">Đăng Ký</string>
+    <string name="lbl_forgot_password">Quên mật khẩu</string>
+    <string name="lbl_view_order">Đơn hàng mới</string>
+    <string name="lbl_pass">Mật khẩu</string>
+    <string name="lbl_pass_confirm">Nhập lại mật khẩu</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_phone_number">Điện thoại</string>
+    <string name="lbl_list_order">Danh sách đơn hàng</string>
+    <string name="lbl_entet_your_email">Nhập email của bạn</string>
+    <string name="lbl_my_profile">Thông tin của tôi</string>
+    <string name="lbl_change_pass_word">Đổi mật khẩu</string>
+    <string name="lbl_logout">Đăng xuất</string>
+    <string name="lbl_current_password">Mật khẩu hiện tại</string>
+    <string name="lbl_new_password">Mật khẩu mới</string>
+    <string name="lbl_confirm_password">Xác nhận mật khẩu</string>
+    <string name="lbl_submit">Gửi</string>
+    <string name="lbl_my_account">Tài khoản của tôi</string>
+    <string name="lbl_full_name">Họ và tên</string>
+    <string name="lbl_address">Địa chỉ</string>
+    <string name="lbl_update_profile">Cập nhật thông tin</string>
+    <string name="lbl_time">Thời gian</string>
+    <string name="lbl_date">Ngày</string>
+    <string name="lbl_order_detail">Chi tiết đơn hàng</string>
+    <string name="lbl_delivery">Cập nhật</string>
+    <string name="total">Tổng cộng :</string>
+    <string name="lbl_about">Thông tin</string>
+    <string name="lbl_setting">Cài Đặt</string>
+    <string name="lbl_language">Ngôn Ngữ</string>
+    <string name="lbl_notify_me">Thông báo</string>
+    <string name="lbl_reset_after">Làm mới sau</string>
+    <string name="lbl_set_time">sau phút</string>
+    <string name="lbl_choise_time">Chọn thời gian</string>
+    <string name="lbl_choose">Chọn</string>
+    <string name="lbl_my_order">Đơn đặt hàng của tôi</string>
+    <string name="lbl_all_order">Tất cả đơn hàng</string>
+    <string name="message_sure_update">Bạn có chắc chắn xử lý đơn hàng này?</string>
+    <string name="lbl_new_order">Đơn đặt hàng mới</string>
+    <string name="assign_for_me">Gán cho tôi</string>
+    <string name="show">Hiển thị</string>
+    <string name="lbl_menu">Thực Đơn</string>
+    <string name="lbl_no_of_seats">Ghế</string>
+    <string name="please_select_value">Vui lòng chọn một lựa chọn</string>
+
+    <!-- Dashboard -->
+    <string name="lbl_daily">Hàng ngày</string>
+    <string name="lbl_weekly">Tuần</string>
+    <string name="lbl_monthly">Tháng</string>
+    <string name="lbl_yearly">Năm</string>
+    <string name="lbl_day">Ngày</string>
+    <string name="lbl_n">N</string>
+    <string name="lbl_p">P</string>
+    <string name="lbl_v">V</string>
+    <string name="lbl_d">D</string>
+    <string name="lbl_dashboard">Bảng điều khiển</string>
+    <string name="lbl_from">Từ</string>
+    <string name="lbl_to">Đến</string>
+    <string name="lbl_filter_by_date">Lọc theo ngày</string>
+    <string name="lbl_filter">Lọc</string>
+    <string name="lbl_status">Trạng thái</string>
+    <string name="lbl_update_status">Cập nhật trạng thái</string>
+    <string name="message_have_no_more_data">Không có thêm dữ liệu</string>
+    <string name="lbl_promotion">Khuyến mại</string>
+    <string name="start_date">Ngày bắt đầu</string>
+    <string name="end_date">Ngày kết thúc</string>
+    <string name="lbl_category">Thể loại</string>
+    <string name="lbl_content">Nội dung</string>
+    <string name="you_are_here">Bạn đang ở đây</string>
+    <string name="lbl_cart">Giỏ hàng</string>
+    <string name="have_some_error">Có một số lỗi, xin vui lòng thử lại sau</string>
+    <string name="do_you_want_exit_app">Bạn có muốn thoát ứng dụng?</string>
+    <string name="exit_app">Thoát</string>
+    <string name="lbl_yes">Có</string>
+    <string name="lbl_no">Không</string>
+    <string name="lbl_cannel">Hủy bỏ</string>
+    <string name="lbl_account">Tài Khoản</string>
+    <string name="payment_successfully">Thanh toán thành công!</string>
+
+    <!-- Order -->
+    <string name="lbl_no_item_colon">Loại mặt hàng: </string>
+    <string name="lbl_currency">$ </string>
+    <string name="lbl_name_colon">Tên: </string>
+    <string name="lbl_phone_colon">Điện thoại: </string>
+    <string name="lbl_address_colon">Địa chỉ: </string>
+    <string name="lbl_confirm_action">Xác nhận hàng động</string>
+    <string name="lbl_do_you_want_update_this_order">Bạn có muốn cập nhật đơn hàng này</string>
+    <string name="lbl_error_colon">Lỗi: </string>
+    <string name="lbl_please_enter_full">Vui lòng điền đầy đủ thông tin</string>
+    <string name="email_is_not_validated">Sai định dạng email</string>
+    <string name="passwords_do_not_match">Mật khẩu không đúng</string>
+    <string name="register_success">Đăng kí thành công</string>
+    <string name="register_failed">Đăng kí thất bại</string>
+    <string name="update_profile_success">Cập nhật thông tin thành công</string>
+    <string name="update_profile_failed">Cập nhật thông tin thất bại</string>
+    <string name="lbl_minutes">Phút</string>
+    <string name="lbl_error_network">Lỗi kết nối mạng</string>
+    <string name="lbl_no_conect">Không có kết nối mạng. Vui lòng thử lại !</string>
+    <string name="please_enter_user_name_and_password">Vui lòng điền tên tài khoản và mật khẩu</string>
+    <string name="please_enter_your_email">Vui lòng điền email của bạn </string>
+    <string name="login_fail">Đăng nhập thất bại, hãy thử lại sau</string>
+    <string name="change_pass">Đổi mật khẩu thành công</string>
+    <string name="please_add_your_item_to_cart">Vui lòng thêm sản phẩm vào giỏ hàng !</string>
+    <string name="add_item_quantity">Thêm số lượng</string>
+    <string name="banking_information">Thông tin ngân hàng : </string>
+    <string name="your_order_is_successfull">Đơn hàng của bạn đặt thành công! </string>
+    <string name="you_cannot_make_an_order">Bạn không thể đặt hàng với tài khoản này!</string>
+    <string name="this_item_is_existed_on_your_cart">Mặt hàng này đã có trong giỏ hàng của bạn !</string>
+    <string name="add_to_your_cart_successfully">Thêm vào giỏ hàng thành công !</string>
+    <string name="change_status_successfully">Đổi trạng thái thành công!</string>
+    <string name="lbl_quantity">Số lượng</string>
+    <string name="lbl_select_category">Lựa chọn thể loại</string>
+    <string name="lbl_select_language">Lựa chọn ngôn ngữ</string>
+    <string name="lbl_select_table">Lựa chọn bàn</string>
+    <string name="msg_order_empty">Đơn hàng trống</string>
+    <string name="msg_choose_food_first">Bạn phải lựa chọn thực phẩm đầu tiên!</string>
+    <string name="lbl_close">Đóng</string>
+    <string name="input_search_key">Khóa tìm kiếm..</string>
+    <string name="none">Không</string>
+    <string name="mandatory_field">Thông tin bắt buộc</string>
+    <string name="txt_add">Thêm</string>
+    <string name="lbl_paypal_payment">Thanh toán qua Paypal</string>
+    <string name="lbl_cash_on_delivery">Tiền mặt khi giao hàng</string>
+    <string name="lbl_banking_deposite">Tiền gửi ngân hàng</string>
+    <string name="new_customer">Mới</string>
+    <string name="content_img">Nội dung ảnh</string>
+    <string name="lbl_Admin">Quản trị</string>
+    <string name="lbl_Waiter">Phục vụ</string>
+    <string name="lbl_Chef">Đầu bếp</string>
+    <string name="lbl_Delivery">Người giao hàng</string>
+    <string name="lbl_Buyer">Người mua</string>
+    <string name="have_no_more_data">Không có dữ liệu</string>
+
+    <!-- about -->
+    <string name="projecttemplae">Projectemplace</string>
+    <string name="go_here">Tới đây</string>
+    <string name="feedback">Phản hồi</string>
+    <string name="address">Địa Chỉ :</string>
+    <string name="phone">Điện Thoại</string>
+    <string name="open_hour">Giờ mở cửa :</string>
+    <string name="website">Trang web :</string>
+    <string name="email">Email :</string>
+    <string name="content">Nội dung :</string>
+    <string name="hint_email">Điền email</string>
+    <string name="hint_content">Điền phản hồi...</string>
+    <string name="error_input_feedback_content">Vui lòng điền phản hồi của bạn!</string>
+    <string name="send_feedback_success">Chúng tôi đã nhận được phản hồi của bạn và sẽ xử lý nó./n Cám ơn!</string>
+    <string name="error_send_feedback">Đã xảy ra lỗi. Vui lòng thử lại!</string>
+    <string name="Add_your_feedback">Thêm phản hồi</string>
+    <string name="Direction">Định hướng</string>
+
+    <!--about screen-->
+    <string name="about_title">HiCom Solutions</string>
+    <string name="about_content1">Cung cấp mã nguồn Android, iOS, Web và dịch vụ phát triển.</string>
+    <string name="about_content2">Cam kết chất lượng sản phẩm cao và dịch vụ tốt nhất!</string>
+    <string name="about_link"><u>http://hicomsolutions.com.au</u></string>
+
+    <string name="select_customer">Lựa chọn khách hàng</string>
+    <string name="no_effect">Không có tác dụng</string>
+
+    <!--detail order-->
+    <string name="order_id">ID đơn hàng</string>
+    
+</resources>

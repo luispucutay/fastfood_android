@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    tools:context="com.dt.projecttemplate.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/layout"
+        android:background="@drawable/bg_header"
+        android:layout_height="@dimen/height_header">
+
+        <Button
+            android:id="@+id/btnLeft"
+            android:layout_width="@dimen/icon_width_height"
+            android:layout_height="@dimen/icon_width_height"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/dimen_xsmall"
+            android:background="@drawable/btn_back" />
+
+        <TextView
+            android:id="@+id/lblHeaderTtle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:textColor="#ffffff"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:layout_marginRight="@dimen/dimen_xsmall"
+            android:layout_marginLeft="@dimen/dimen_xsmall"
+            android:layout_toRightOf="@+id/btnLeft"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textSize="@dimen/text_xxnormal"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <com.google.android.youtube.player.YouTubePlayerView
+        android:id="@+id/youtubeplayerview"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/layout"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/lvStreams"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/youtubeplayerview"
+        android:layout_marginLeft="@dimen/margin_small"
+        android:layout_marginRight="@dimen/margin_small"
+        android:layout_marginBottom="@dimen/margin_small"
+        android:divider="@android:color/transparent"
+        android:dividerHeight="@dimen/margin_small"
+        android:layout_marginTop="@dimen/margin_normal"
+        android:layout_height="match_parent"></ListView>
+
+</RelativeLayout>

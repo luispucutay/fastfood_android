@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/tbl_row_even" >
+
+    <LinearLayout
+        android:id="@+id/layMain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:orientation="horizontal"
+        android:paddingBottom="@dimen/margin_small"
+        android:paddingTop="@dimen/margin_small" >
+
+        <TextView
+            android:id="@+id/title_left"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:paddingLeft="@dimen/margin_normal"
+            android:text="@string/lbl_day"
+            android:textColor="#6C6C6C" />
+
+        <TextView
+            android:id="@+id/title_new"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/lbl_n"
+            android:textColor="@color/tbl_row_text" />
+
+        <TextView
+            android:id="@+id/title_pending"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/lbl_p"
+            android:textColor="@color/tbl_row_text" />
+
+        <TextView
+            android:id="@+id/title_void"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/lbl_v"
+            android:textColor="@color/tbl_row_text" />
+
+        <TextView
+            android:id="@+id/title_delivered"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center_horizontal"
+            android:text="@string/lbl_d"
+            android:textColor="@color/tbl_row_text" />
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/layout/row_dashboard_item.xml -->

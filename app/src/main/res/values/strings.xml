@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Restaurant Fastfood</string>
+    <string name="tel">tel:</string>
+    <string name="menu">Menu</string>
+    <string name="search">Search</string>
+    <string name="order">Order</string>
+    <string name="order_now">Order Now</string>
+    <string name="about">About</string>
+    <string name="streams">Streams</string>
+    <string name="account">Account</string>
+
+    <!-- Cart -->
+    <string name="error_no_topping">No Topping with this item !</string>
+    <string name="txt_add_ins_tructions">Add Note</string>
+    <string name="txt_add_ins_tructions_hint">Input your note...</string>
+    <string name="txt_add_toppings">Add Options</string>
+    <string name="options">Options</string>
+    <string name="remove">Remove</string>
+    <string name="Note">Add note</string>
+    <string name="save">Save</string>
+
+    <!-- submit order -->
+    <string name="lblOrderSumary">Order Summary</string>
+    <string name="no_items">No items :</string>
+    <string name="total_amount">Total amount :</string>
+    <string name="customer_information">Customer Information</string>
+    <string name="name">Name</string>
+    <string name="payment_method_label">Payment Method</string>
+    <string name="payment_method">Payment Method</string>
+    <string name="policy">We\'ll call you to confirm the order after your order is submitted.</string>
+    <string name="submit">Submit</string>
+    <string name="submit_order">Submit Order</string>
+    <string name="error_input_receipted_info">Please input Receipted information and payment method!</string>
+    <string name="confirm_order">Do you want to order now?</string>
+    <string name="btn_OK">OK</string>
+    <string name="btn_Cancel">Cancel</string>
+    <string name="btn_Send">Send</string>
+    <string name="bank_detail">Bank Details</string>
+
+    <!-- submit order -->
+    <string name="lbl_login">Login</string>
+    <string name="lbl_user_name">User Name</string>
+    <string name="lbl_register">Register</string>
+    <string name="lbl_forgot_password">Forgot Password</string>
+    <string name="lbl_view_order">New orders</string>
+    <string name="lbl_pass">Password</string>
+    <string name="lbl_pass_confirm">Confirm Password</string>
+    <string name="lbl_email">Email</string>
+    <string name="lbl_phone_number">Phone</string>
+    <string name="lbl_list_order">List Order</string>
+    <string name="lbl_entet_your_email">Enter your email</string>
+    <string name="lbl_my_profile">My profile</string>
+    <string name="lbl_change_pass_word">Change password</string>
+    <string name="lbl_logout">Logout</string>
+    <string name="lbl_current_password">Current Password</string>
+    <string name="lbl_new_password">New Password</string>
+    <string name="lbl_confirm_password">Confirm Password</string>
+    <string name="lbl_submit">Submit</string>
+    <string name="lbl_my_account">My account</string>
+    <string name="lbl_full_name">Full name</string>
+    <string name="lbl_address">Address</string>
+    <string name="lbl_update_profile">Update profile</string>
+    <string name="lbl_time">Time</string>
+    <string name="lbl_date">Date</string>
+    <string name="lbl_order_detail">Order Detail</string>
+    <string name="lbl_delivery">Update</string>
+    <string name="total">Total :</string>
+    <string name="lbl_about">About</string>
+    <string name="lbl_setting">Setting</string>
+    <string name="lbl_language">Language</string>
+    <string name="lbl_notify_me">Notify me</string>
+    <string name="lbl_reset_after">Refresh after</string>
+    <string name="lbl_set_time">After Minute</string>
+    <string name="lbl_choise_time">Choise Time</string>
+    <string name="lbl_choose">Choose</string>
+    <string name="lbl_my_order">My orders</string>
+    <string name="lbl_all_order">All orders</string>
+    <string name="message_sure_update">Do you sure to process this order?</string>
+    <string name="lbl_new_order">New orders</string>
+    <string name="assign_for_me">Assign for me</string>
+    <string name="show">Show</string>
+    <string name="lbl_menu">Menu</string>
+    <string name="lbl_no_of_seats">Seats</string>
+    <string name="please_select_value">Please select an option</string>
+
+    <!-- Dashboard -->
+    <string name="lbl_daily">Daily</string>
+    <string name="lbl_weekly">Weekly</string>
+    <string name="lbl_monthly">Monthly</string>
+    <string name="lbl_yearly">Yearly</string>
+    <string name="lbl_day">Day</string>
+    <string name="lbl_n">N</string>
+    <string name="lbl_p">P</string>
+    <string name="lbl_v">V</string>
+    <string name="lbl_d">D</string>
+    <string name="lbl_dashboard">Dashboard</string>
+    <string name="lbl_from">From</string>
+    <string name="lbl_to">To</string>
+    <string name="lbl_filter_by_date">Filter by date</string>
+    <string name="lbl_filter">Filter</string>
+    <string name="lbl_status">Status</string>
+    <string name="lbl_update_status">Update Status</string>
+    <string name="message_have_no_more_data">Have no more data</string>
+    <string name="lbl_promotion">Promotion</string>
+    <string name="start_date">Start date</string>
+    <string name="end_date">End date</string>
+    <string name="lbl_category">Category</string>
+    <string name="lbl_content">Content</string>
+    <string name="you_are_here">You are here</string>
+    <string name="lbl_cart">Cart</string>
+    <string name="have_some_error">Have some error, Please try again later</string>
+    <string name="do_you_want_exit_app">Do you want to exit this app?</string>
+    <string name="exit_app">Exit app</string>
+    <string name="lbl_yes">Yes</string>
+    <string name="lbl_no">No</string>
+    <string name="lbl_cannel">Cannel</string>
+    <string name="lbl_account">Account</string>
+    <string name="payment_successfully">Payment successfully !</string>
+
+    <!-- Order -->
+    <string name="lbl_no_item_colon">No. Items: </string>
+    <string name="lbl_currency">$ </string>
+    <string name="lbl_name_colon">Name: </string>
+    <string name="lbl_phone_colon">Phone: </string>
+    <string name="lbl_address_colon">Address: </string>
+    <string name="lbl_confirm_action">Confirm Action</string>
+    <string name="lbl_do_you_want_update_this_order">Do you want update this order</string>
+    <string name="lbl_error_colon">Error: </string>
+    <string name="lbl_please_enter_full">Please enter full information</string>
+    <string name="email_is_not_validated">Email is not validated</string>
+    <string name="passwords_do_not_match">Passwords do not match</string>
+    <string name="register_success">Register Success</string>
+    <string name="register_failed">Register Failed</string>
+    <string name="update_profile_success">Update profile success</string>
+    <string name="update_profile_failed">Update profile failed</string>
+    <string name="lbl_minutes">Minutes</string>
+    <string name="lbl_error_network">Error Network</string>
+    <string name="lbl_no_conect">No connect to network. Please try again !</string>
+    <string name="please_enter_user_name_and_password">Please enter user name and password</string>
+    <string name="please_enter_your_email">Please enter your email </string>
+    <string name="login_fail">Login fail, please try again later</string>
+    <string name="change_pass">Change password success</string>
+    <string name="please_add_your_item_to_cart">Please add your item to cart !</string>
+    <string name="add_item_quantity">Add item quantity</string>
+    <string name="banking_information">Banking Information : </string>
+    <string name="your_order_is_successfull">Your Order is successfull! </string>
+    <string name="you_cannot_make_an_order">You cannot make an order with this account!</string>
+    <string name="this_item_is_existed_on_your_cart">This item is existed on your cart !</string>
+    <string name="add_to_your_cart_successfully">Add to your cart successfully !</string>
+    <string name="change_status_successfully">Change status successfully</string>
+    <string name="lbl_quantity">Quantity</string>
+    <string name="lbl_select_category">Select Category</string>
+    <string name="lbl_select_language">Select Language</string>
+    <string name="lbl_select_table">Select Table</string>
+    <string name="msg_order_empty">Order is empty!</string>
+    <string name="msg_choose_food_first">You have to choose the first food!</string>
+    <string name="lbl_close">Close</string>
+    <string name="input_search_key">Search key ..</string>
+    <string name="none">No</string>
+    <string name="mandatory_field">Mandatory field</string>
+    <string name="txt_add">Add</string>
+    <string name="lbl_paypal_payment">Payment via Paypal</string>
+    <string name="lbl_cash_on_delivery">Cash on delivery</string>
+    <string name="lbl_banking_deposite">Bank Deposit</string>
+    <string name="new_customer">New</string>
+    <string name="content_img">Content Image</string>
+    <string name="lbl_Admin">Admin</string>
+    <string name="lbl_Waiter">Waiter</string>
+    <string name="lbl_Chef">Chef</string>
+    <string name="lbl_Delivery">Delivery</string>
+    <string name="lbl_Buyer">Buyer</string>
+    <string name="have_no_more_data">Have no more data</string>
+
+    <!-- about -->
+    <string name="projecttemplae">Projectemplae</string>
+    <string name="go_here">Go here</string>
+    <string name="feedback">Feedback</string>
+    <string name="address">Address :</string>
+    <string name="phone">Phone</string>
+    <string name="open_hour">Opening hours :</string>
+    <string name="website">Website :</string>
+    <string name="email">Email :</string>
+    <string name="content">Content :</string>
+    <string name="hint_email">Input your email</string>
+    <string name="hint_content">Input your feedback...</string>
+    <string name="error_input_feedback_content">Please input your feedback!</string>
+    <string name="send_feedback_success">We got your feedback and we will process it./n Thank you!</string>
+    <string name="error_send_feedback">The error occurred. Please try again!</string>
+    <string name="Add_your_feedback">Add your feedback</string>
+    <string name="Direction">Direction</string>
+
+    <!--about screen-->
+    <string name="about_title">HiCom Solutions</string>
+    <string name="about_content1">Provides Android, iOS, Web Source Codes and Development Services.</string>
+    <string name="about_content2">Highly Committed to Quality Products and Excellent Services.</string>
+    <string name="about_link"><u>http://hicomsolutions.com.au</u></string>
+
+    <string name="select_customer">Select Customer</string>
+    <string name="no_effect">No effect</string>
+
+    <!--detail order-->
+    <string name="order_id">Order ID</string>
+
+</resources>

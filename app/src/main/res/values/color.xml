@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="text_app">#303b52</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="pink">#D1A5B7</color>
+    <color name="grey">#808080</color>
+    <color name="purple">#c6bfe8</color>
+    <color name="work_color">#cccccc</color>
+    <color name="time_color">#cccccc</color>
+    <color name="hint_color">#cccccc</color>
+    <color name="text">#575759</color>
+    <color name="blue_header">#1f94cd</color>
+    <color name="gray">#e9e9e9</color>
+    <color name="violet">#892980</color>
+    <color name="green">#008000</color>
+    <color name="color_button_blue">#4cb4b5</color>
+    <color name="brown">#946146</color>
+    <color name="yellow">#ffd800</color>
+    <color name="blue">#2f68ac</color>
+    <color name="transparent">#00000000</color>
+    <color name="red">#FF0000</color>
+    <color name="violetframe">#7d6b91</color>
+    <color name="cl_tabmain">#303b52</color>
+
+    <!-- Color Text -->
+    <color name="text_header">#000000</color>
+    <color name="red_text">#ff2222</color>
+    <color name="white_text">#ffffff</color>
+    <color name="text_home_fragment">#323232</color>
+    <color name="number_home_fragment">#008000</color>
+    <color name="text_spinner">#002200</color>
+    <color name="text_minute_top_score">#05c405</color>
+    <color name="text_color_resname">#024e78</color>
+    <color name="text_color_res_detail">#faA570</color>
+
+    <!-- Color Background -->
+    <color name="background_header">#32a2f7</color>
+    <color name="background">#656565</color>
+    <color name="background_frame">#363b3f</color>
+    <color name="background_reminder">#3c3c3c</color>
+    <!-- Color Indicator -->
+    <color name="background_indicator">#2c7d13</color>
+    <color name="text_indicator_selected">#ffc322</color>
+    <color name="background_login">#852323</color>
+    <color name="background_signup">#f9f9f9</color>
+    <color name="text_signup">#b8b8b8</color>
+    <!-- Color Indicator -->
+    <!-- Color Indicator -->
+    <!-- Layout Color -->
+    <color name="blueText">#4675A3</color>
+    <color name="blueText_distance">#5a98d4</color>
+    <color name="grayText">#5A5A5A</color>
+    <color name="graybackground">#ebebeb</color>
+    <color name="graydivider">#b3b3b3</color>
+    <color name="graydivider2">#ffffff</color>
+    <color name="colorForEdittext">#2F6179</color>
+
+    <!-- Setting background color -->
+    <color name="red_setting">#ff6a59</color>
+    <color name="blue_setting">#65a1dd</color>
+    <color name="yellow_setting">#fff39d</color>
+    <color name="pink_setting">#ff99ce</color>
+    <color name="red_header">#b70a24</color>
+    <color name="red_light">#cddcab</color>
+    <color name="black_news">#4b4b4b</color>
+    <color name="black_news_time">#4b4b4b</color>
+    <color name="bg_app">#fbf1db</color>
+    <color name="orange_setting">#fb6c00</color>
+    <color name="green_black">#303b52</color>
+    <color name="blue_sky">#82caff</color>
+
+    <!-- Add Toppings -->
+    <color name="tp_header">#24a601</color>
+
+    <!-- Add Toppings -->
+    <color name="link_color">#4986E7</color>
+    
+    <!-- Table -->
+    <color name="tbl_header">#e7e7e7</color>
+    <color name="tbl_row_even">#E53F39</color>
+    <color name="tbl_row_odd">#FFFFFF</color>
+    <color name="tbl_header_text">#000000</color>
+    <color name="tbl_row_text">#000000</color>
+
+    <color name="tran_parent">#66000000</color>
+
+</resources>

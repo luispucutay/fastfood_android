@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_custom_spinner"
+        android:orientation="horizontal"
+        android:paddingLeft="@dimen/margin_normal" >
+
+        <EditText
+            android:id="@+id/txtSearch"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:gravity="center_vertical"
+            android:hint="@string/input_search_key"
+            android:imeOptions="actionSearch"
+            android:inputType="text"
+            android:padding="@dimen/margin_normal"
+            android:textSize="@dimen/text_normal" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="3dp"
+            android:layout_marginTop="3dp"
+            android:background="#eeeeee" />
+
+        <ImageView
+            android:id="@+id/btnSearch"
+            android:layout_width="@dimen/icon_width_height"
+            android:layout_height="@dimen/icon_width_height"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="@dimen/margin_normal"
+            android:background="@drawable/ic_search_non_select" />
+    </LinearLayout>
+
+    <com.hcpt.fastfood.widget.pulltorefresh.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lsvItems"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:layout_weight="1"
+        android:divider="@null"
+        android:dividerHeight="0dp"      
+        ptr:ptrMode="both" />
+
+</LinearLayout><!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/layout/fragment_search.xml -->

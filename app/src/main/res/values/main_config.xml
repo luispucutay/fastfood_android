@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="server_backend_link">http://108.167.172.166/~projectempla/fastfood-mohamed/index.php/api/</string>
+
+    <!--other key-->
+    <string name="key_google_api">AIzaSyBJuWG0Jax1k7yUmRQ3HOougmF1hzM5QIo</string>
+
+    <!--paypal-->
+    <string name="PAYPAL_CLIENT_APP_ID">ARR3YZ29JFSRJVIto4SXEqW3s9IddLWdEz5QM8e8VniV-OimdTQDE8VWOBmENwFgAq9P2wZA202z8YYd</string>
+    <string name="PAYPAL_RECEIVE_EMAIL_ID">huy.phamngoc1987-facilitator@gmail.com</string>
+
+</resources>

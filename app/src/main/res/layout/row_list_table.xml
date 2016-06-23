@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="horizontal" >
+
+    <ImageView
+        android:id="@+id/status_image"
+        android:layout_width="@dimen/toppings_height_header"
+        android:layout_height="@dimen/toppings_height_header"
+        android:layout_margin="@dimen/margin_small"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_table_empty" />
+
+    <TextView
+        android:id="@+id/lblName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="left"
+        android:padding="@dimen/margin_normal"
+        android:singleLine="true"
+        android:text="category 1"
+        android:textSize="@dimen/text_normal" />
+
+    <TextView
+        android:id="@+id/lblSeat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:padding="@dimen/margin_normal"
+        android:singleLine="true"
+        android:text="category 1"
+        android:textSize="@dimen/text_normal" />
+
+</LinearLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/values-sw720dp-land/dimens.xml -->
+    <eat-comment/>
+    <dimen name="app_button_choose_song_height">80dp</dimen>
+    <dimen name="app_button_choose_song_width">280dp</dimen>
+    <dimen name="app_button_controls_song_height">80dp</dimen>
+    <dimen name="app_button_controls_song_width">80dp</dimen>
+    <dimen name="app_button_height">80dp</dimen>
+    <dimen name="app_button_width">170dp</dimen>
+    <dimen name="app_dialog_height">130dp</dimen>
+    <dimen name="app_dialog_width">440dp</dimen>
+    <dimen name="app_header_text_size">28sp</dimen>
+    <dimen name="app_label_noise_number_width">80dp</dimen>
+    <dimen name="app_label_noise_text_width">100dp</dimen>
+    <dimen name="app_label_text_width">180dp</dimen>
+    <dimen name="app_margin_audio_and_visual">25dp</dimen>
+    <dimen name="app_spinner_width">220dp</dimen>
+    <dimen name="app_standalone_button_width">350dp</dimen>
+    <dimen name="app_text_size">24sp</dimen>
+    <dimen name="button_help_screen_height">60dp</dimen>
+    <dimen name="button_help_screen_width">40dp</dimen>
+    <dimen name="layout_bottom_height">100dp</dimen>
+</resources>

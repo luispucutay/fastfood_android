@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hcpt.fastfood">
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="com.hcpt.fastfood.permission.MAPS_RECEIVE" />
+
+    <!-- Creates a custom permission so only this app can receive its messages. -->
+    <permission
+        android:name="com.hcpt.fastfood.permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name="com.hcpt.fastfood.permission.C2D_MESSAGE" />
+
+    <!-- This app has permission to register and receive data message. -->
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+
+    <permission
+        android:name="com.hcpt.fastfood.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" >
+    </permission>
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+
+    <!-- application name using for google analytic -->
+    <application
+        android:name="com.hcpt.fastfood.volley.ControllerRequest"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo_splash"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:launchMode="singleInstance"
+        android:theme="@style/AppTheme">
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="@string/key_google_api" />
+
+        <receiver
+            android:name="com.google.android.gcm.GCMBroadcastReceiver"
+            android:permission="com.google.android.c2dm.permission.SEND">
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.pt.fastfood" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.hcpt.fastfood.GCMIntentService"></service>
+        <!--<service android:name="com.hcpt.fastfood.ServiceNotification" />-->
+        <!--
+        release: AIzaSyBPxtlHT3HMw0EP9Xy_LSCwm3rJEFmPRVk
+		debug: AIzaSyAO0DfI4SqYCi3IJ-ATpBp3VlngFwClHqM
+        -->
+        <activity
+            android:name="com.hcpt.fastfood.activity.SplashActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.hcpt.fastfood.activity.MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.MapActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.RegisterActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.MyOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.AboutActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.SettingActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.DashboardActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.OrderDetailAdminActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.OrderActivityAdmin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.NewOrderActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.OrderDetailNewActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.PromotionActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.PromotionDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.hcpt.fastfood.activity.StreamsYouTobeActivity"
+            android:screenOrientation="portrait" />
+        <!-- paypal -->
+        <service
+            android:name="com.paypal.android.sdk.payments.PayPalService"
+            android:exported="false" />
+
+        <activity android:name="com.paypal.android.sdk.payments.PaymentActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.LoginActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentMethodActivity" />
+        <activity android:name="com.paypal.android.sdk.payments.PaymentConfirmActivity" />
+        <activity
+            android:name="io.card.payment.CardIOActivity"
+            android:configChanges="keyboardHidden|orientation" />
+        <activity android:name="io.card.payment.DataEntryActivity" />
+    </application>
+
+</manifest>

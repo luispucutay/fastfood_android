@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_normal" >
+
+    <RelativeLayout
+        android:id="@+id/rlHeadler"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toppings_height_header"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/bg_dialog_header"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/txt_add_toppings"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/lvToppings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rlFooter"
+        android:layout_below="@+id/rlHeadler"
+        android:divider="@null"
+        android:drawSelectorOnTop="false"
+        android:padding="@dimen/margin_normal" />
+
+    <RelativeLayout
+        android:id="@+id/rlFooter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toppings_height_header"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_normal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btnSave"
+                android:layout_width="@dimen/btn_app_width"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn_green"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/margin_small"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_normal" />
+
+            <TextView
+                android:id="@+id/btnCancel"
+                android:layout_width="@dimen/btn_app_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_normal"
+                android:background="@drawable/bg_btn_green"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/margin_small"
+                android:text="@string/btn_Cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_normal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

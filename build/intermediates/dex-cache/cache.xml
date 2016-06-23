@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\SDK\sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.0\support-annotations-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="92e3fc113ec3ee36b64603a38857b95700025633">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.0-1fe0f6459ce532076ffe0ef0771c22765689ac88.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\exploded-aar\com.android.volley\volley-library\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="172c054320d81dee017fa4b329961f623d7f8bac">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\classes-e236f3b0dab48f6af720970e76a4475f67f806cb.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="57ae0d750ff83f0c738d21720224ac7ea866a094">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\classes-f226f31caf7b143558994d9df8e305383a796759.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ddde541c289c8b816a8f8fd6c325d80788c522a6">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\classes-f8afb633a2b6d1851df582ddf32eeccd8773ffc6.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\libs\mint-4.0.8.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="19452a9f6424ddae60c51f97e93cb9bec3dddfd2">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\mint-4.0.8-713b2f9331853f6b68de55014ab88f44c3f0d6a9.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\libs\YouTubeAndroidPlayerApi.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="78b8f6e37921559ed21c1fae1f30f9f713494db8">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\YouTubeAndroidPlayerApi-39e4252d7f07e7e59ca3d2eacd7de722b2d7cb1e.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\libs\gcm.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a6d7bce795a14c7f86111756c4ceb44b79de14aa">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\gcm-f5db7aebfb1c8d233727a721ce627feea795a3dd.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\libs\org.apache.http.legacy.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fa331331b626ee78c52bea16ce1e34b39e666ce5">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\org.apache.http.legacy-26400bd29c1a7df9505cab1f94d2aece24efeaba.jar" />
+    </item>
+    <item
+        jar="C:\Users\DangTin\.gradle\caches\modules-2\files-2.1\com.squareup.picasso\picasso\2.5.2\7446d06ec8d4f7ffcc53f1da37c95f200dcb9387\picasso-2.5.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\picasso-2.5.2-3a02a0efee6d3b637f7923b9a830f27533985b56.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\libs\PayPalAndroidSDK.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a4f1a7487f984f3f98599330fb406c05c7a62391">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\PayPalAndroidSDK-b5d78c6dab355fa38b9b6ab0c6596d3d7b625735.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\6.5.87\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\classes-0db7a3c3215122456c07e33028f3a26ae6b9c27d.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\libs\android-query-full.0.25.10.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="646ad6432a4da6a827e74ce64149c719ce7e86eb">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\android-query-full.0.25.10-349e141facf5f1ccf7fbbd6a1801ab565a831f87.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\libs\libGoogleAnalyticsServices.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e887c6c9b31b39a39b0eaba981448b78902ea813">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\libGoogleAnalyticsServices-44a4f184a020238b97df679642e27b44f2e904da.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.0\jars\libs\internal_impl-23.1.0.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8716243bf04bae8d6c9ca94d27b9a9be7236f0a3">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.0-8696054afdc08a26c52df3f03916a72eb3c80f83.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\exploded-aar\me.drakeet.materialdialog\library\1.2.8\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0573d010bcb1ee874e1c258a31e98ab920e6805f">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\classes-96f06569fff03ba0a1ae28075d2bc35a8a39392c.jar" />
+    </item>
+    <item
+        jar="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\libs\jsoup-1.7.3.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="ab1f22cadc2f8b514e55ba368f5128056fe304da">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\jsoup-1.7.3-2e631e0352e0c16527c83cc29f4b0a6a8eaf4712.jar" />
+    </item>
+    <item
+        jar="C:\Users\DangTin\.gradle\caches\modules-2\files-2.1\com.google.code.gson\gson\2.2.2\1f96456ca233dec780aa224bff076d8e8bca3908\gson-2.2.2.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1f96456ca233dec780aa224bff076d8e8bca3908">
+        <dex dex="D:\WorkSpaceAndroidStudio\Fruity-DuAn\Fastfood-Mohammed-Alisrawi\app\build\intermediates\pre-dexed\debug\gson-2.2.2-e6352f25fbcd56ef33d8c2448eb0e4bfa5deb587.jar" />
+    </item>
+
+</items>

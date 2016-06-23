@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/values-hdpi/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="app_button_choose_song_height">40dp</dimen>
+    <dimen name="app_button_choose_song_width">180dp</dimen>
+    <dimen name="app_button_controls_song_height">40dp</dimen>
+    <dimen name="app_button_controls_song_width">40dp</dimen>
+    <dimen name="app_button_height">36dp</dimen>
+    <dimen name="app_button_width">90dp</dimen>
+    <dimen name="app_dialog_height">100dp</dimen>
+    <dimen name="app_dialog_width">300dp</dimen>
+    <dimen name="app_header_text_size">18sp</dimen>
+    <dimen name="app_label_noise_number_width">40dp</dimen>
+    <dimen name="app_label_noise_text_width">60dp</dimen>
+    <dimen name="app_label_text_width">100dp</dimen>
+    <dimen name="app_margin_audio_and_visual">10dp</dimen>
+    <dimen name="app_spinner_width">170dp</dimen>
+    <dimen name="app_standalone_button_width">190dp</dimen>
+    <dimen name="app_text_size">15sp</dimen>
+    <dimen name="btn_app_width">100dp</dimen>
+    <dimen name="button_help_screen_height">30dp</dimen>
+    <dimen name="button_help_screen_width">20dp</dimen>
+    <dimen name="dimen_large">18dp</dimen>
+    <dimen name="dimen_normal">10dp</dimen>
+    <dimen name="dimen_small">8dp</dimen>
+    <dimen name="dimen_xlarge">20dp</dimen>
+    <dimen name="dimen_xnormal">12dp</dimen>
+    <dimen name="dimen_xsmall">6dp</dimen>
+    <dimen name="dimen_xxlarge">22dp</dimen>
+    <dimen name="dimen_xxnormal">14dp</dimen>
+    <dimen name="dimen_xxsmall">4dp</dimen>
+    <dimen name="dimen_xxxlarge">24dp</dimen>
+    <dimen name="dimen_xxxnormal">16dp</dimen>
+    <dimen name="dimen_xxxsmall">2dp</dimen>
+    <dimen name="height_content_textbox">130dp</dimen>
+    <dimen name="height_header">50dp</dimen>
+    <dimen name="height_list_dialog">250dp</dimen>
+    <dimen name="height_view_order">70dp</dimen>
+    <dimen name="icon_in_row_width_height">20dp</dimen>
+    <dimen name="icon_width_height">30dp</dimen>
+    <dimen name="layout_bottom_height">60dp</dimen>
+    <dimen name="layout_height_item_streams">180dp</dimen>
+    <dimen name="margin_normal">10dp</dimen>
+    <dimen name="margin_small">5dp</dimen>
+    <dimen name="margin_tiny">2.5dp</dimen>
+    <dimen name="margin_xnormal">15dp</dimen>
+    <dimen name="row_option">85dp</dimen>
+    <dimen name="size_icon_next">25dp</dimen>
+    <dimen name="size_text_tab_menu">15dp</dimen>
+    <dimen name="text_large">22sp</dimen>
+    <dimen name="text_normal">16sp</dimen>
+    <dimen name="text_small">15sp</dimen>
+    <dimen name="text_xlarge">24sp</dimen>
+    <dimen name="text_xnormal">17sp</dimen>
+    <dimen name="text_xsmall">14sp</dimen>
+    <dimen name="text_xxlarge">26sp</dimen>
+    <dimen name="text_xxnormal">18sp</dimen>
+    <dimen name="text_xxsmall">12sp</dimen>
+    <dimen name="text_xxxlarge">28sp</dimen>
+    <dimen name="text_xxxnormal">20sp</dimen>
+    <dimen name="text_xxxsmall">10sp</dimen>
+    <dimen name="toppings_height_header">40dp</dimen>
+    <dimen name="toppings_width_button">80dp</dimen>
+    <dimen name="width_image_map">100dp</dimen>
+    <dimen name="width_image_width">130dp</dimen>
+    <dimen name="width_image_xxwidth">170dp</dimen>
+    <!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-hdpi/values-hdpi.xml -->
+    <eat-comment/>
+    <style name="Base.Widget.AppCompat.DrawerArrowToggle" parent="Base.Widget.AppCompat.DrawerArrowToggle.Common">
+          <item name="barLength">18.66dp</item>
+          <item name="gapBetweenBars">3.33dp</item>
+          <item name="drawableSize">24dp</item>
+     </style>
+</resources>

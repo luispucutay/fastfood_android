@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/lblDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header"
+        android:background="@drawable/bg_header"
+        android:gravity="center"
+        android:text="Select Cook Method"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_normal" />
+
+    <ListView
+        android:id="@+id/lsvCookMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" />
+
+</LinearLayout><!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/layout/dialog_layout_select_cook_method.xml -->

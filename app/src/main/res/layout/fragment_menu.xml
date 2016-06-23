@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_app"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/btnSelectCategory"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_header"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_custom_spinner"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/lblCategoryName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:padding="@dimen/margin_normal"
+            android:text="category 1"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img_selectCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="@dimen/margin_normal"
+            android:src="@drawable/icon_down" />
+    </LinearLayout>
+
+    <com.hcpt.fastfood.widget.pulltorefresh.PullToRefreshListView
+        xmlns:ptr="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/lsvItems"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/margin_normal"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        ptr:ptrMode="both" />
+
+</LinearLayout>

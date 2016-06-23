@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-sw600dp/values-sw600dp.xml -->
+    <eat-comment/>
+    <dimen name="abc_action_bar_content_inset_material">24dp</dimen>
+    <dimen name="abc_action_bar_default_height_material">64dp</dimen>
+    <dimen name="abc_action_bar_default_padding_end_material">8dp</dimen>
+    <dimen name="abc_action_bar_default_padding_start_material">8dp</dimen>
+    <dimen name="abc_config_prefDialogWidth">580dp</dimen>
+    <dimen name="abc_text_size_subtitle_material_toolbar">16dp</dimen>
+    <dimen name="abc_text_size_title_material_toolbar">20dp</dimen>
+    <!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/values-sw600dp/dimens.xml -->
+    <eat-comment/>
+    <dimen name="app_button_choose_song_height">60dp</dimen>
+    <dimen name="app_button_choose_song_width">260dp</dimen>
+    <dimen name="app_button_controls_song_height">60dp</dimen>
+    <dimen name="app_button_controls_song_width">60dp</dimen>
+    <dimen name="app_button_height">60dp</dimen>
+    <dimen name="app_button_width">150dp</dimen>
+    <dimen name="app_dialog_height">100dp</dimen>
+    <dimen name="app_dialog_width">400dp</dimen>
+    <dimen name="app_header_text_size">25sp</dimen>
+    <dimen name="app_label_noise_number_width">60dp</dimen>
+    <dimen name="app_label_noise_text_width">80dp</dimen>
+    <dimen name="app_label_text_width">140dp</dimen>
+    <dimen name="app_margin_audio_and_visual">15dp</dimen>
+    <dimen name="app_spinner_width">190dp</dimen>
+    <dimen name="app_standalone_button_width">310dp</dimen>
+    <dimen name="app_text_size">20sp</dimen>
+    <dimen name="button_help_screen_height">40dp</dimen>
+    <dimen name="button_help_screen_width">30dp</dimen>
+    <dimen name="layout_bottom_height">80dp</dimen>
+    <!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.0/res/values-sw600dp/values-sw600dp.xml -->
+    <eat-comment/>
+    <integer name="abc_max_action_buttons">5</integer>
+</resources>

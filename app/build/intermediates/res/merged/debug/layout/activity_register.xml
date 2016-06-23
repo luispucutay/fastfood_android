@@ -1,0 +1,171 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_app"
+    android:orientation="vertical" >
+
+    <include layout="@layout/layout_header" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_normal"
+        android:background="@drawable/bg_item_row"
+        android:orientation="vertical"
+        android:padding="@dimen/margin_xnormal" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:text="@string/lbl_user_name"
+                    android:textColor="@color/black_news"
+                    android:textSize="@dimen/text_small" />
+
+                <EditText
+                    android:id="@+id/txtName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:background="@drawable/bg_text_view"
+                    android:padding="@dimen/margin_small"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:text="@string/lbl_pass"
+                    android:textColor="@color/black_news"
+                    android:id="@+id/lblPassword"
+                    android:textSize="@dimen/text_small" />
+
+                <EditText
+                    android:id="@+id/txtPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:background="@drawable/bg_text_view"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/margin_small"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:id="@+id/lblConfirmPass"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:text="@string/lbl_pass_confirm"
+                    android:textColor="@color/black_news"
+                    android:textSize="@dimen/text_small" />
+
+                <EditText
+                    android:id="@+id/txtPasswordConfirm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:background="@drawable/bg_text_view"
+                    android:inputType="textPassword"
+                    android:padding="@dimen/margin_small"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:text="@string/lbl_email"
+                    android:textColor="@color/black_news"
+                    android:textSize="@dimen/text_small" />
+
+                <EditText
+                    android:id="@+id/txtEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:background="@drawable/bg_text_view"
+                    android:inputType="textEmailAddress"
+                    android:padding="@dimen/margin_small"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:text="@string/lbl_phone_number"
+                    android:textColor="@color/black_news"
+                    android:textSize="@dimen/text_small" />
+
+                <EditText
+                    android:id="@+id/txtPhone"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:background="@drawable/bg_text_view"
+                    android:inputType="phone"
+                    android:padding="@dimen/margin_small"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:text="@string/lbl_full_name"
+                    android:textColor="@color/black_news"
+                    android:textSize="@dimen/text_small" />
+
+                <EditText
+                    android:id="@+id/txtFullName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:background="@drawable/bg_text_view"
+                    android:inputType="text"
+                    android:padding="@dimen/margin_small"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:text="@string/lbl_address"
+                    android:textColor="@color/black_news"
+                    android:textSize="@dimen/text_small" />
+
+                <EditText
+                    android:id="@+id/txtAddress"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/margin_small"
+                    android:background="@drawable/bg_text_view"
+                    android:inputType="text"
+                    android:padding="@dimen/margin_small"
+                    android:textSize="@dimen/text_small" />
+
+                <TextView
+                    android:id="@+id/btnRegister"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/margin_small"
+                    android:layout_weight="1"
+                    android:background="@drawable/bg_text_button"
+                    android:gravity="center"
+                    android:padding="@dimen/margin_normal"
+                    android:text="@string/lbl_register"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_small" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/layout/activity_register.xml -->

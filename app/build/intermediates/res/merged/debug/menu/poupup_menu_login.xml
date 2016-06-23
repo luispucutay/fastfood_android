@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:showAsAction="always"
+        android:title="@string/lbl_language"
+        android:visible="true"/>
+
+    <item
+        android:icon="@drawable/ic_feedback_select"
+        android:showAsAction="always"
+        android:title="@string/lbl_setting"
+        android:visible="true"/>
+    <item
+        android:showAsAction="always"
+        android:title="@string/lbl_about"
+        android:visible="true"/>
+    <item
+        android:showAsAction="always"
+        android:title="@string/lbl_logout"
+        android:visible="true"/>
+
+</menu><!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/menu/poupup_menu_login.xml -->

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlRoot"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/margin_normal" >
+
+    <RelativeLayout
+        android:id="@+id/rlHeadler"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toppings_height_header"
+        android:background="@drawable/bg_dialog_header"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/tvHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/txt_add_ins_tructions"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_normal"
+            android:textStyle="normal" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/edtInsTructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_small"
+        android:background="@drawable/bg_text_view"
+        android:gravity="top"
+        android:hint="@string/txt_add_ins_tructions_hint"
+        android:inputType="textMultiLine"
+        android:lines="9"
+        android:minLines="9"
+        android:padding="@dimen/margin_normal"
+        android:scrollHorizontally="true"
+        android:textSize="@dimen/text_normal" />
+
+    <RelativeLayout
+        android:id="@+id/rlFooter"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/toppings_height_header"
+        android:layout_marginTop="@dimen/margin_xnormal"
+        android:gravity="center_vertical"
+        android:paddingLeft="@dimen/margin_normal"
+        android:paddingRight="@dimen/margin_normal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/btnSave"
+                android:layout_width="@dimen/btn_app_width"
+                android:layout_height="wrap_content"
+                android:background="@drawable/bg_btn_green"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/margin_small"
+                android:text="@string/save"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_normal" />
+
+            <TextView
+                android:id="@+id/btnCancel"
+                android:layout_width="@dimen/btn_app_width"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/margin_normal"
+                android:background="@drawable/bg_btn_green"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/margin_small"
+                android:text="@string/btn_Cancel"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_normal" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout><!-- From: file:/D:/WorkSpaceAndroidStudio/Fruity-DuAn/Fastfood-Mohammed-Alisrawi/app/src/main/res/layout/dialog_instruction.xml -->

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/layout_height_item_streams"
+    android:background="@color/white">
+
+    <ImageView
+        android:id="@+id/img_streams"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/layout_height_item_streams"
+        android:scaleType="centerCrop" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:background="@color/tran_parent"
+        android:paddingLeft="@dimen/margin_small"
+        android:paddingRight="@dimen/margin_small"
+        android:layout_alignParentBottom="true"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv_title_streams"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@+id/tv_duration_streams"
+            android:layout_marginRight="@dimen/margin_small"
+            android:singleLine="true"
+            android:ellipsize="marquee"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_small"
+            android:text="Name streams"/>
+
+        <TextView
+            android:id="@+id/tv_date_streams"
+            android:layout_below="@+id/tv_title_streams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_xxsmall"
+            android:text="25-5-2016"/>
+
+        <TextView
+            android:id="@+id/tv_duration_streams"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_xsmall"
+            android:visibility="gone"
+            android:layout_centerVertical="true"
+            android:text="03:56"/>
+    </RelativeLayout>
+</RelativeLayout>
